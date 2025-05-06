@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Computer Bookstore </title>
+    <link rel="stylesheet" href="week7.1.css">
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Nick Computer Bookstore</h1>
+        <div class="subtitle">Must-Read Computer Books</div>
+    </header>
+    
+    <div id="books-container" class="book-container">
+        <!-- Books will be loaded here by JavaScript -->
+    </div>
+    
+    <footer>
+        <p>© 2025 Nick Computer Bookstore. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Load books from JSON file
+        fetch('week7.1.json')
+            .then(response => response.json())
+            .then(books => {
+                const container = document.getElementById('books-container');
+                
+                books.forEach(book => {
+                    const bookCard = document.createElement('div');
+                    bookCard.className = 'book-card';
+                    
+                    bookCard.innerHTML = `
+                        <h2 class="book-title">${book.title}</h2>
+                        <div class="book-author">Author: ${book.author}</div>
+                        <div class="book-meta">
+                            <span class="book-publisher">Publisher: ${book.publisher}</span>
+                            <span>Pages: ${book.pages}</span>
+                        </div>
+                        <div class="book-price">$${book.price.toFixed(2)}</div>
+                        <p class="book-description">${book.description}</p>
+                    `;
+                    
+                    container.appendChild(bookCard);
+                });
+            })
+            .catch(error => console.error('Error loading books:', error));
+    </script>
+</body>
+</html>

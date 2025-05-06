@@ -1,0 +1,82 @@
+[
+  {
+    "author": "Robert C. Martin",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "description": "This book is a must-read for any software developer. It provides practical advice on writing clean, maintainable code that will stand the test of time. The author, also known as Uncle Bob, shares principles and patterns that help developers produce higher quality software with fewer bugs and greater efficiency. The book covers topics like meaningful names, functions, comments, formatting, objects and data structures, error handling, unit testing, and concurrent programming.",
+    "price": 39.99,
+    "publisher": "Prentice Hall",
+    "pages": 464
+  },
+  {
+    "author": "Andrew Hunt, David Thomas",
+    "title": "The Pragmatic Programmer",
+    "description": "A timeless classic that offers practical tips and philosophical advice for software developers. The book covers everything from personal responsibility and career development to architectural techniques for keeping code flexible and easy to adapt. It's filled with practical advice on topics like automation, testing, debugging, and project management. The authors distill years of experience into concrete recommendations that will help any programmer become more productive and produce higher quality work.",
+    "price": 34.99,
+    "publisher": "Addison-Wesley",
+    "pages": 352
+  },
+  {
+    "author": "Martin Kleppmann",
+    "title": "Designing Data-Intensive Applications",
+    "description": "This book is an invaluable resource for anyone working with data systems. It provides a comprehensive overview of the principles behind reliable, scalable, and maintainable systems. The author examines different data models, storage and retrieval methods, distributed systems, batch and stream processing, and the future of data systems. The book bridges the gap between theory and practice, helping readers understand the trade-offs involved in designing real-world data systems.",
+    "price": 49.99,
+    "publisher": "O'Reilly Media",
+    "pages": 600
+  },
+  {
+    "author": "Donald E. Knuth",
+    "title": "The Art of Computer Programming",
+    "description": "A monumental work in computer science literature, this multi-volume set provides a comprehensive treatment of fundamental algorithms and data structures. Knuth's rigorous mathematical approach and attention to detail make this an essential reference for serious computer scientists. The books cover basic concepts, seminumerical algorithms, sorting and searching, combinatorial algorithms, and more. While challenging, the material is presented with clarity and precision that rewards careful study.",
+    "price": 59.99,
+    "publisher": "Addison-Wesley",
+    "pages": 650
+  },
+  {
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "title": "Introduction to Algorithms",
+    "description": "Often called CLRS after its authors, this textbook provides a comprehensive introduction to modern algorithms. It covers a broad range of algorithms in depth while making their design and analysis accessible to all levels of readers. The book includes chapters on sorting, data structures, advanced design and analysis techniques, graph algorithms, and selected special topics. Each chapter is relatively self-contained and can be used as a unit of study. The explanations are rigorous yet clear, with pseudocode for all algorithms.",
+    "price": 89.99,
+    "publisher": "MIT Press",
+    "pages": 1312
+  },
+  {
+    "author": "Eric Evans",
+    "title": "Domain-Driven Design",
+    "description": "This book introduces the concept of domain-driven design (DDD) and provides a framework for modeling complex business domains in software. Evans presents a catalog of patterns for building systems that reflect a deep understanding of the business domain. The book covers strategic design, tactical design, refactoring toward deeper insight, and maintaining model integrity. It's particularly valuable for developers working on complex enterprise applications where aligning software with business needs is critical.",
+    "price": 44.99,
+    "publisher": "Addison-Wesley",
+    "pages": 560
+  },
+  {
+    "author": "Steve McConnell",
+    "title": "Code Complete",
+    "description": "A comprehensive handbook of software construction that covers the entire development process. McConnell synthesizes research and best practices into practical advice for writing better code. The book covers design, coding, debugging, testing, and software quality topics. It's filled with concrete examples and checklists that developers can apply immediately. The second edition updates the content to reflect modern practices while retaining the timeless wisdom that made the first edition a classic.",
+    "price": 45.99,
+    "publisher": "Microsoft Press",
+    "pages": 960
+  },
+  {
+    "author": "Frederick P. Brooks Jr.",
+    "title": "The Mythical Man-Month",
+    "description": "A collection of essays on software engineering and project management that remains relevant decades after its initial publication. Brooks shares insights from his experience managing IBM's OS/360 development. The book discusses conceptual integrity, the importance of communication, the perils of adding people to late projects (the titular 'man-month' myth), and the challenges of estimating software projects. The anniversary edition includes new essays reflecting on the original content's continued relevance.",
+    "price": 29.99,
+    "publisher": "Addison-Wesley",
+    "pages": 336
+  },
+  {
+    "author": "Brian W. Kernighan, Dennis M. Ritchie",
+    "title": "The C Programming Language",
+    "description": "Often called K&R after its authors, this book is the definitive reference for the C programming language. Written by the language's creator (Ritchie) and one of its most influential proponents (Kernighan), it provides a concise yet comprehensive introduction to C. The book covers all aspects of the language with clear examples and exercises. While C has evolved since the book's publication, the core concepts remain essential reading for anyone serious about systems programming or understanding the foundations of modern computing.",
+    "price": 42.99,
+    "publisher": "Prentice Hall",
+    "pages": 288
+  },
+  {
+    "author": "Kent Beck",
+    "title": "Test-Driven Development: By Example",
+    "description": "This book introduces the concept of test-driven development (TDD) through practical examples. Beck demonstrates how writing tests before code can lead to better designs and more reliable software. The book presents two extended examples (in Python and Java) that show TDD in action, then explores the patterns and refactorings that emerge from this approach. It's an essential read for developers looking to adopt TDD or improve their unit testing skills.",
+    "price": 37.99,
+    "publisher": "Addison-Wesley",
+    "pages": 240
+  }
+]
