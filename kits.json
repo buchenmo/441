@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Kit",
+    "description": "Complete resource kit for teaching web development fundamentals including HTML, CSS, and JavaScript.",
+    "price": 199,
+    "unitCode": "ICTWEB431",
+    "image": "Web Development Kit.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Python Programming Kit",
+    "description": "Comprehensive materials for Python programming courses with exercises and projects.",
+    "price": 249,
+    "unitCode": "ICTPRG430",
+    "image": "Python Programming Kit.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Data Science Resource Kit",
+    "description": "Resources for data analysis, visualization and machine learning with practical examples.",
+    "price": 299,
+    "unitCode": "ICTDSA430",
+    "image": "Data Science Resource Kit.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity Training Kit",
+    "description": "Complete cybersecurity training materials and resources for practical learning.",
+    "price": 349,
+    "unitCode": "ICTCSY430",
+    "image": "Cybersecurity Training Kit.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing Resource Kit",
+    "description": "AWS and cloud computing training resources and materials with hands-on labs.",
+    "price": 399,
+    "unitCode": "ICTCLD430",
+    "image": "Cloud Computing Resource Kit.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development Kit",
+    "description": "Resources for teaching mobile app development with React Native and Flutter.",
+    "price": 279,
+    "unitCode": "ICTMOB430",
+    "image": "Mobile App Development Kit.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Database Management Kit",
+    "description": "SQL and database management training materials, exercises and case studies.",
+    "price": 229,
+    "unitCode": "ICTDBM430",
+    "image": "Database Management Kit.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Network Fundamentals Kit",
+    "description": "Networking concepts, configuration training resources and lab exercises.",
+    "price": 269,
+    "unitCode": "ICTNET430",
+    "image": "Network Fundamentals Kit.jpg"
+  },
+  {
+    "id": 9,
+    "title": "UI/UX Design Resource Kit",
+    "description": "User interface and experience design principles, exercises and templates.",
+    "price": 219,
+    "unitCode": "ICTUIX430",
+    "image": "UIUX Design Resource Kit.jpg"
+  },
+  {
+    "id": 10,
+    "title": "IT Project Management Kit",
+    "description": "Project management methodologies, templates and tools for IT projects.",
+    "price": 329,
+    "unitCode": "ICTPRM430",
+    "image": "IT Project Management Kit.jpg"
+  }
+]

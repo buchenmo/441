@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Fundamentals",
+    "description": "Learn the basics of HTML, CSS, and JavaScript to build responsive websites.",
+    "duration": "6 weeks",
+    "price": "$499",
+    "image": "Web Development Fundamentals.jpg",
+    "assessment": "Practical project and written exam",
+    "sampleProject": "Build a responsive portfolio website"
+  },
+  {
+    "id": 2,
+    "title": "Python Programming",
+    "description": "Master Python programming from basics to advanced concepts and applications.",
+    "duration": "8 weeks",
+    "price": "$599",
+    "image": "Python Programming.jpg",
+    "assessment": "Coding assignments and final project",
+    "sampleProject": "Develop a data analysis tool"
+  },
+  {
+    "id": 3,
+    "title": "Data Science Essentials",
+    "description": "Introduction to data analysis, visualization, and machine learning techniques.",
+    "duration": "10 weeks",
+    "price": "$799",
+    "image": "Data Science Essentials.jpg",
+    "assessment": "Data analysis project and presentation",
+    "sampleProject": "Customer segmentation analysis"
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity Fundamentals",
+    "description": "Learn essential cybersecurity concepts and practices to protect digital assets.",
+    "duration": "8 weeks",
+    "price": "$699",
+    "image": "Cybersecurity Fundamentals.jpg",
+    "assessment": "Security audit report and practical test",
+    "sampleProject": "Vulnerability assessment report"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing with AWS",
+    "description": "Comprehensive training on Amazon Web Services and cloud infrastructure.",
+    "duration": "12 weeks",
+    "price": "$899",
+    "image": "Cloud Computing with AWS.jpg",
+    "assessment": "Cloud architecture design and implementation",
+    "sampleProject": "Deploy a scalable web application on AWS"
+  }
+]

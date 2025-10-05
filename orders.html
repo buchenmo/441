@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management - RTO Training</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">ITIC RTO</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cart.html">Shopping Cart</a></li>
+                </ul>
+                <div class="user-info">
+                    <span id="user-greeting">Welcome, Guest</span>
+                    <a href="login.html" class="btn" id="login-btn">Login</a>
+                    <a href="register.html" class="btn" id="register-btn">Register</a>
+                    <a href="#" class="btn btn-danger" id="logout-btn" style="display: none;">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">Order Management</h1>
+        <div class="order-management-options">
+            <div class="option-card">
+                <div class="option-icon">📥</div>
+                <h3>Download Order History</h3>
+                <p>Download your complete order history as a JSON file.</p>
+                <button class="btn" id="download-orders-btn">Download</button>
+            </div>
+            <div class="option-card">
+                <div class="option-icon">🗑️</div>
+                <h3>Clear Data</h3>
+                <p>Clear your shopping cart and order history from localStorage.</p>
+                <button class="btn btn-danger" id="clear-data-btn">Clear Data</button>
+            </div>
+            <div class="option-card">
+                <div class="option-icon">🔒</div>
+                <h3>Logout</h3>
+                <p>Securely log out of your account.</p>
+                <button class="btn" id="logout-management-btn">Logout</button>
+            </div>
+        </div>
+
+        <h2 class="section-title">Order Task List</h2>
+        <div class="todo-list">
+            <div class="todo-input">
+                <input type="text" id="todo-input" placeholder="Add a task related to your orders...">
+                <button id="add-todo-btn">Add</button>
+            </div>
+            <ul class="todo-items" id="todo-list">
+                <!-- Todo items loaded by JavaScript -->
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">&copy; Copyright © ITIC 2024 - All Rights Reserved. Address:Level 3, 321 Pitt Street. Postal Code:Sydney NSW 2000. Phone Number:1300 008 001. Email:info@itic.com.au</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="utils.js"></script>
+    <script src="auth.js"></script>
+    <script src="orders.js"></script>
+</body>
+</html>

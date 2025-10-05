@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - RTO Training</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">ITIC RTO</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="form-container">
+            <h1 style="text-align: center; margin-bottom: 1.5rem;">Login to Your Account</h1>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-username">Username</label>
+                    <input type="text" id="login-username" class="form-control" required>
+                    <div class="error-message" id="login-username-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" class="form-control" required>
+                    <div class="error-message" id="login-password-error"></div>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Login</button>
+            </form>
+            <p style="text-align: center; margin-top: 1rem;">
+                Don't have an account? <a href="register.html">Register here</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">&copy; Copyright © ITIC 2024 - All Rights Reserved. Address:Level 3, 321 Pitt Street. Postal Code:Sydney NSW 2000. Phone Number:1300 008 001. Email:info@itic.com.au</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="utils.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
